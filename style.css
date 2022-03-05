@@ -1,0 +1,140 @@
+body{
+
+    background-color: LightGray;
+}
+img{
+ border-radius: 50%;
+}
+
+#boxUsuario{
+    padding:10%;
+}
+#cadastrar{
+ 
+    margin-top:5%; 
+}
+
+#login{
+     margin-top:5%; 
+
+}
+.Form{
+    padding:5% 10% 5% 10%;
+
+}
+
+#caixas{
+    margin-top: 5%;
+}
+li:active:visited{
+ background-color: blue;
+}
+#cadastrarEmail{
+   display: none;
+}
+#barra a{
+    color: black;
+    font-size:  small;
+    }
+#logo{
+    font-weight: bold;
+    color: rgb(68, 65, 65);
+    font-size: xx-large;
+}
+#barra{
+    background-color: gray;
+    font-size: x-large;
+    background-color: rgb(253, 253, 253);
+}
+
+
+#cor1{
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+#cor2{
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+#cor3{
+    background-color: dodgerblue;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+#cor4{
+    background-color: mediumseagreen;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+
+#cor5{
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+#cor6{
+    background-color: slateblue;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+#cor7{
+    background-color: violet;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+#cor8{
+    background-color: lightgray;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+#alertSenha{
+    display: none;
+}
+
+#alertLogin{
+    display: none;
+}
+#titulo{
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#subtitulo{
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: large;
+    text-align: center;
+}
+#boasvindas{
+    text-align:center;
+     margin:10em;
+}
+.botoesInicial{
+  margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+   #titulo {
+        font-size: x-large;
+    }
+    #subtitulo{
+        font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: small;
+    }
+    .mover{
+        display: none;
+    }
+    .lixeira{
+        display: none;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TrickEmail - E-mail personalizado para você</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>    
+        
+        <div class="container-fluid">
+            <div  class="row align-items-start justify-content-end" id="cores">
+                <div id="cor1"></div>
+                <div id="cor2"></div>
+                <div id="cor3"></div>
+                <div id="cor4"></div>
+                <div id="cor5"></div>
+                <div id="cor6"></div>
+                <div id="cor7"></div>
+                <div id="cor8"></div>
+         </div>
+
+
+            <div  class="row align-items-center justify-content-center">
+
+                    <ul class="list-group" id="listaContas"  >
+                        <li class="list-group-item active" > Selecionar uma conta</li>
+                        <div class="card Form" id="cardContas"> OLÁ USUARIO</div>
+                        <div id="contas"></div>
+                        <li class="list-group-item last"><a href="#" id="criarUmaConta">Criar conta</a></li>
+                      </ul>
+
+
+                <div  class="col-sm-5" id="cadastrarEmail">
+                    <form  class="card Form">
+                    <h4>Cadastrar Conta</h4>
+                    Endereço de Email:<input class="form-control" type="text" id="endereco" placeholder="Digite o endereço de email" required/>
+                    Tipo: <input class="form-control" type="text" id="tipo" placeholder="Digite seu nome" required/>
+                    Foto :<input class="form-control" type="file" id="foto" placeholder="" required/>
+                    </br>
+                    <input class="btn btn-primary"   type="submit" value="Cadastrar Conta>>"/> </br>
+                    <input class="btn btn-secondary"  onclick='location.href = "entrada.html"' value="Cancelar Cadastro"/>
+
+                    </form>
+                    <div class="alert alert-danger" id="alertSenha">Senhas não são identicas</div>
+          </div>
+            </div>
+       
+</div>
+<script src="main.js"></script>
+
+        
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TrickEmail</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>    
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">TrickEmail</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+            
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" id="nomeUsuario" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="boxUsuario">
+                          <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                <img src="https://img.icons8.com/plasticine/100/000000/gender-neutral-user.png"/>
+                                <a class="dropdown-item" id="nomeDropDownContas" href="#"></a>  
+                                <a class="dropdown-item" id="emailDropDownContas" href="#"></a>
+                                </div>
+                                
+                            </div>
+                            <div class="row align-items-end justify-content-end">
+                            <div class="col-3">
+                                    <button class="btn btn-danger" id="sair">Sair</button>
+                            </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+                  </ul>
+    
+                </div>
+              </nav>
+           <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+            <div class="col-sm-5" id="boasvindas">
+                    <ul class="list-group">
+                            <li class="list-group-item active">Selecione uma das contas</li>
+                            <div id="contas"  ></div>
+                              </ul>
+            </div>
+        </div>
+        
+        
+    
+        <div class="modal" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true"></div>
+
+
+        <script src="../js/modal.js"></script>
+        <script src="../js/user.js"></script>
+        <script src="../js/userController.js"></script>
+        <script src="../js/contas.js"></script>
+        <script src="../js/contasController.js"></script>
+        <script src="../main.js"></script>
+
+    </body>
+</html>
